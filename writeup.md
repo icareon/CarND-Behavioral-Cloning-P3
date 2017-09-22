@@ -104,8 +104,12 @@ The final model architecture (model.py lines 18-24) consisted of a convolution n
 
 #### 3. Creation of the Training Set & Training Process
 
-To capture good driving behavior, I used the udacity provided data set
+To capture good driving behavior, I used the udacity provided data set.
 
-I finally randomly shuffled the data set and put Y% of the data into a validation set. 
+I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 15 as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 5 as evidenced by the excellent behavior when driving the model. I used an adam optimizer so that manually training the learning rate wasn't necessary.
+
+This resulted in a learning rate as shown here
+
+[image1]: ./loss.png "Model Visualization"
