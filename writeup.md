@@ -112,4 +112,4 @@ I used this training data for training the model. The validation set helped dete
 
 This resulted in a learning rate as shown here
 
-[image1](./loss.png) "Model Visualization"
+![image1](./loss.png) "Model Visualization"
