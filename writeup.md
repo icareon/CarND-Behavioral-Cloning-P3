@@ -80,7 +80,9 @@ In order to gauge how well the model was working, I split my image and steering 
 
 To combat the overfitting, I modified the model so that it had dropout layers.
 
-The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track... to improve the driving behavior in these cases, I balanced and added curve driving to the data.
+The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track... to improve the driving behavior in these cases, I balanced and added curve driving to the data. This resulted in the following distribution
+
+![balanced histogram](./balanced.png)
 
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 
